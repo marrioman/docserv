@@ -1,0 +1,13 @@
+server:
+  url: ":1234"
+database:
+  userdb:
+    url: "postgres://postgres:password@localhost:5444/userdb?sslmode=disable"
+    dialect: postgres
+    poolsizemin: 10
+    poolsizemax: 20
+  docsdb:
+    url: "postgres://postgres:password@localhost:5432/docsdb?sslmode=disable"
+    dialect: postgres
+    poolsizemin: 10
+    poolsizemax: 20
